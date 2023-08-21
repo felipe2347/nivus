@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2><!-- h2 e utilizado para titulo--> 
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button><!--A tag button e utilizada para crriar o botão na pagina do html,a função onclick e utilizada para recochecer a fução de clicar do usuraio, em seguida ele ira conectar
+com o nosso elemento ID (document.getElementById), no caso "demo" , inserindo a data nosso ID ("innerHTML = date()" )-->
+
+<p id="demo"></p>
+<button onclick="document.getElementById('myImage').src='nivus original.jfif'">antes</button>
+
+<img id="myImage" src="nivus original.jfif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='nivus fro.jfif'">depois</button>
+
+
+</body>
+</html> 
